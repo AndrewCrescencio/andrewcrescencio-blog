@@ -1,0 +1,143 @@
+{
+  "data": {
+    "setting": {
+      "id": "603e6c0fea5cb78a6ea187f2",
+      "blogName": "Andrew Crescencio",
+      "blogDescription": "Uma descrição para o meu blog.",
+      "logo": {
+        "id": "603e59da85540677309fd518",
+        "alternativeText": "",
+        "url": "https://res.cloudinary.com/peetaxd/image/upload/v1628784345/eu_zdocgl.jpg"
+      },
+      "menuLink": [
+        {
+          "id": "603e6c0fea5cb78a6ea187f3",
+          "link": "#target",
+          "text": "O texto",
+          "newTab": false
+        },
+        {
+          "id": "603e9298ea5cb78a6ea187f6",
+          "link": "#link2",
+          "text": "o LINK 2",
+          "newTab": true
+        }
+      ],
+      "text": "<p>O texto da footer</p>"
+    },
+    "posts": [
+      {
+        "createdAt": "2020-04-20",
+        "id": "603e56b939bd976b42d790a0",
+        "slug": "vis-nobis-veritus-maluisset-id-nonumy-adversarium",
+        "title": "Vis nobis veritus maluisset id, nonumy adversarium",
+        "excerpt": "Fugit aliquip erroribus eu eam, an mel vidit doctus. Vis nobis veritus maluisset id, nonumy adversarium neglegentur est ut. Tation persius pri eu, modo minim fastidii mei no. Ad tota pertinax definiebas eam.",
+        "content": "<h2>Um title</h2><h3>este é um heading</h3><p>&nbsp;</p><p>um belo parágrafo &nbsp;até …. só não tenho ideia para escrever….</p><p><code>&lt;div&gt;&lt;h1&gt;teste&lt;/h1&gt;&lt;/div&gt;</code></p><p>&nbsp;</p><ol><li>um item</li><li>outro item</li><li>mais um item</li><li>esta é uma lista muito boa até</li></ol><p><strong>negrito</strong></p><p><i><strong>italo</strong></i></p><p>&nbsp;</p><blockquote><p>A laranja se chama se chama laranja por causa de sua cor, ou a cor se chama laranja por causa da fruta?&nbsp;</p></blockquote><p>&nbsp;</p><p>na verdade o nome laranja não é por causa da cor, só procurar no google, to com preguiça de colocar aqui 😂</p><p>pra falar a verdade, da vontade de escrever coisas bem mais aleatórias que isso, só para encher o conteúdo do blog, mas como este projeto é para meu portfólio… então não é uma boa ideia kkkk&nbsp;</p><p>depois eu irei mudar todo o conteúdo do blog e postar coisas de verdade mesmo, sobre programação e as coisas que aprendi</p>",
+        "allowComments": true,
+        "cover": {
+          "id": "603e59da85540677309fd518",
+          "alternativeText": "",
+          "url": "https://res.cloudinary.com/dlizakp2a/image/upload/v1614698965/Ubuntu_gel_by_Midge_Mantissa_Sinnaeve_7caea7ddb4.jpg"
+        },
+        "categories": [
+          {
+            "id": "603e55b539bd976b42d79097",
+            "displayName": "JavaScript",
+            "slug": "java-script"
+          },
+          {
+            "id": "603e55ef39bd976b42d7909a",
+            "displayName": "React",
+            "slug": "react"
+          }
+        ],
+        "tags": [
+          {
+            "id": "603e561139bd976b42d7909b",
+            "displayName": "useEffect",
+            "slug": "use-effect"
+          },
+          {
+            "id": "603e562139bd976b42d7909c",
+            "displayName": "useState",
+            "slug": "use-state"
+          },
+          {
+            "id": "603e562139bd976b42d79s9c",
+            "displayName": "reactJs",
+            "slug": "react-js"
+          }
+        ],
+        "author": {
+          "id": "603e557239bd976b42d79094",
+          "displayName": "Andrew Crescencio",
+          "slug": "andrew-crescencio"
+        }
+      },
+      {
+        "id": "603e57c639bd976b42d790a1",
+        "slug": "sea-array-destructuring-dicat-fabulas-consetetur",
+        "title": "Sea Array Destructuring dicat fabulas consetetur ",
+        "excerpt": "Quod oblique mei ne, cetero delicatissimi sea cu, cu est harum dicit verterem. Tota forensibus ut usu, luptatum dignissim persecuti vel ex. Mea nostrud instructior cu, et referrentur theophrastus eum. Pro in iuvaret senserit.",
+        "content": "<h2>Um title</h2><h3>este é um heading</h3><p>&nbsp;</p><p>um belo parágrafo &nbsp;até …. só não tenho ideia para escrever….</p><p><code>&lt;div&gt;&lt;h1&gt;teste&lt;/h1&gt;&lt;/div&gt;</code></p><p>&nbsp;</p><ol><li>um item</li><li>outro item</li><li>mais um item</li><li>esta é uma lista muito boa até</li></ol><p><strong>negrito</strong></p><p><i><strong>italo</strong></i></p><p>&nbsp;</p><blockquote><p>A laranja se chama se chama laranja por causa de sua cor, ou a cor se chama laranja por causa da fruta?&nbsp;</p></blockquote><p>&nbsp;</p><p>na verdade o nome laranja não é por causa da cor, só procurar no google, to com preguiça de colocar aqui 😂</p><p>pra falar a verdade, da vontade de escrever coisas bem mais aleatórias que isso, só para encher o conteúdo do blog, mas como este projeto é para meu portfólio… então não é uma boa ideia kkkk&nbsp;</p><p>depois eu irei mudar todo o conteúdo do blog e postar coisas de verdade mesmo, sobre programação e as coisas que aprendi</p>",
+        "allowComments": true,
+        "cover": {
+          "id": "603e5a2785540677309fd51b",
+          "alternativeText": "",
+          "url": "https://res.cloudinary.com/dlizakp2a/image/upload/v1614699042/Origin_of_nature_by_Julian_Tomasini_dcfdd17cbe.jpg"
+        },
+        "categories": [
+          {
+            "id": "603e55c539bd976b42d79098",
+            "displayName": "Python",
+            "slug": "python"
+          }
+        ],
+        "tags": [
+          {
+            "id": "603e565239bd976b42d7909e",
+            "displayName": "Array destructuring",
+            "slug": "array-destructuring"
+          }
+        ],
+        "author": {
+          "id": "603e558639bd976b42d79095",
+          "displayName": "João da Silva",
+          "slug": "joao-da-silva"
+        }
+      },
+      {
+        "id": "603e5f1785540677309fd51d",
+        "slug": "quod-oblique-mei-ne-cetero-delicatissimi-sea",
+        "title": "Quod oblique mei ne, cetero delicatissimi sea",
+        "excerpt": "Et sed legere rationibus, vitae evertitur ad eam. Eu amet vero officiis vis. Ad nullam pericula neglegentur sit, vix ei regione legendos argumentum. Mei an quas convenire, nobis dicunt mei ut. ",
+        "content": "<h2>Um title</h2><h3>este é um heading</h3><p>&nbsp;</p><p>um belo parágrafo &nbsp;até …. só não tenho ideia para escrever….</p><p><code>&lt;div&gt;&lt;h1&gt;teste&lt;/h1&gt;&lt;/div&gt;</code></p><p>&nbsp;</p><ol><li>um item</li><li>outro item</li><li>mais um item</li><li>esta é uma lista muito boa até</li></ol><p><strong>negrito</strong></p><p><i><strong>italo</strong></i></p><p>&nbsp;</p><blockquote><p>A laranja se chama se chama laranja por causa de sua cor, ou a cor se chama laranja por causa da fruta?&nbsp;</p></blockquote><p>&nbsp;</p><p>na verdade o nome laranja não é por causa da cor, só procurar no google, to com preguiça de colocar aqui 😂</p><p>pra falar a verdade, da vontade de escrever coisas bem mais aleatórias que isso, só para encher o conteúdo do blog, mas como este projeto é para meu portfólio… então não é uma boa ideia kkkk&nbsp;</p><p>depois eu irei mudar todo o conteúdo do blog e postar coisas de verdade mesmo, sobre programação e as coisas que aprendi</p>",
+        "allowComments": true,
+        "cover": {
+          "id": "603e5a2785540677309fd51b",
+          "alternativeText": "",
+          "url": "https://res.cloudinary.com/dlizakp2a/image/upload/v1614699042/Origin_of_nature_by_Julian_Tomasini_dcfdd17cbe.jpg"
+        },
+        "categories": [
+          {
+            "id": "603e55dc39bd976b42d79099",
+            "displayName": "Tech",
+            "slug": "tech"
+          }
+        ],
+        "tags": [
+          {
+            "id": "603e566f39bd976b42d7909f",
+            "displayName": "Object Destructuring",
+            "slug": "object-destructuring"
+          }
+        ],
+        "author": {
+          "id": "603e559539bd976b42d79096",
+          "displayName": "Helena Maria",
+          "slug": "helena-maria"
+        }
+      }
+    ]
+  }
+}

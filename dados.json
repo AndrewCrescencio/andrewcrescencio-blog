@@ -1,0 +1,121 @@
+{
+  "data": {
+    "setting": {
+      "id": "60f75f6b99ad8620801c4d94",
+      "blogName": "Andrew Crescencio",
+      "blogDescription": "Meu Blog com Nextjs e Strapi. No momento o blog está apenas com conteudos aleatorios, mas depois irei mudar todo o conteudo, e escrever apenas sobre programação.",
+      "logo": {
+        "id": "60f76a7358eece29ccd00cfe",
+        "alternativeText": "random picture",
+        "url": "https://res.cloudinary.com/peetaxd/image/upload/v1626827378/bot_b324051b0c.png"
+      },
+      "menuLink": [
+        {
+          "link": "https://github.com/andrewCrescencio.com",
+          "text": "meu github",
+          "newTab": true,
+          "id": "60f75f6b99ad8620801c4d95"
+        }
+      ],
+      "text": "<p>Este é meu blog!</p>"
+    },
+    "posts": [
+      {
+        "id": "60f632b072b7103e34b22635",
+        "slug": "post-lorem",
+        "title": "Post aleatorio ",
+        "excerpt": "Este post é só mais um post aleatório blog ter conteúdo....",
+        "content": "<h2>Um title</h2><h3>este é um heading</h3><p>&nbsp;</p><p>um belo parágrafo &nbsp;até …. só não tenho ideia para escrever….</p><p><code>&lt;div&gt;&lt;h1&gt;teste&lt;/h1&gt;&lt;/div&gt;</code></p><p>&nbsp;</p><ol><li>um item</li><li>outro item</li><li>mais um item</li><li>esta é uma lista muito boa até</li></ol><p><strong>negrito</strong></p><p><i><strong>italo</strong></i></p><p>&nbsp;</p><blockquote><p>A laranja se chama se chama laranja por causa de sua cor, ou a cor se chama laranja por causa da fruta?&nbsp;</p></blockquote><p>&nbsp;</p><p>na verdade não o nome laranja não é por causa da cor, só procurar no google, to com preguiça de colocar aqui 😂</p><p>pra falar a verdade, da vontade de escrever coisas bem mais aleatórias que isso, só para encher o conteúdo do blog, mas como este projeto é para meu portfólio… então não é uma boa ideia kkkk&nbsp;</p><p>depois eu irei mudar todo o conteúdo do blog e postar coisas de verdade mesmo, sobre programação e as coisas que aprendi</p>",
+        "allowComments": true,
+        "cover": [
+          {
+            "id": "60f76a7358eece29ccd00cfe",
+            "alternativeText": "random picture",
+            "url": "https://res.cloudinary.com/peetaxd/image/upload/v1626827378/bot_b324051b0c.png"
+          }
+        ],
+        "categories": [
+          {
+            "id": "60f6151b16bec828fcd44e53",
+            "displayName": "CategoriaTeste",
+            "slug": "categoria-teste"
+          }
+        ],
+        "tags": [
+          {
+            "id": "60f6153f16bec828fcd44e54",
+            "displayName": "TagTest",
+            "slug": "tag-test"
+          }
+        ],
+        "author": {
+          "id": "60f6317272b7103e34b2262d",
+          "displayName": "werdna",
+          "slug": "werdna"
+        }
+      },
+      {
+        "id": "60f75ddd99ad8620801c4d93",
+        "slug": "post-de-teste",
+        "title": "Post de teste",
+        "excerpt": "esse é um post teste só para ver como as coisas são hehe.",
+        "content": "<p>AAAAh um texto muuuuito grande que eu ainda vou procurar de onde vou copiar.</p><p><strong>Lorem Ipsum</strong><span style=\"background-color:rgb(255,255,255);color:rgb(0,0,0);\"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span></p><p style=\"margin-left:0px;text-align:justify;\">Sed cursus metus nisl, nec ornare sapien rutrum id. Nulla efficitur euismod lectus nec malesuada. Duis vel arcu non nunc posuere convallis. Cras imperdiet, ante in pulvinar aliquet, nunc turpis lobortis ligula, sed auctor augue dolor non dolor. Suspendisse sed arcu sit amet est lobortis dignissim sit amet ut justo. Donec ut urna urna. Praesent malesuada accumsan tincidunt. In hac habitasse platea dictumst. Praesent vitae rhoncus elit, ut rutrum justo. Cras ultricies volutpat dolor, nec tincidunt purus sollicitudin sed. Aliquam ornare ex et felis facilisis, eleifend posuere nulla commodo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque finibus odio elit, at commodo urna scelerisque nec. Praesent non viverra ante, vitae malesuada quam.</p><p style=\"margin-left:0px;text-align:justify;\">Morbi molestie arcu sit amet nibh scelerisque tempor. Etiam convallis eros eu accumsan eleifend. Curabitur fringilla finibus lectus in auctor. Vivamus imperdiet fermentum dui, non suscipit urna molestie id. Nullam tincidunt elit ac est porttitor, ac viverra neque ultricies. Etiam sed urna libero. Vestibulum semper sem enim, eget accumsan quam vehicula in. Mauris quis condimentum nunc.</p><p style=\"margin-left:0px;text-align:justify;\">Suspendisse ultrices condimentum leo, sit amet pellentesque dui volutpat ac. Mauris vehicula, nisi sed eleifend vestibulum, felis lacus imperdiet sem, ac pharetra orci nulla ac sapien. Proin posuere semper iaculis. Curabitur a nunc enim. Morbi convallis velit posuere turpis scelerisque, eget aliquet felis cursus. Etiam eu accumsan ipsum, ut suscipit nibh. Suspendisse pretium, leo vestibulum lacinia posuere, arcu orci blandit massa, id eleifend erat nisl sit amet arcu. Sed vulputate lectus diam, eu tincidunt nulla rutrum et. Aliquam vehicula ex id dui iaculis, id ultricies velit imperdiet.</p>",
+        "allowComments": true,
+        "cover": [],
+        "categories": [
+          {
+            "id": "60f6151b16bec828fcd44e53",
+            "displayName": "CategoriaTeste",
+            "slug": "categoria-teste"
+          }
+        ],
+        "tags": [
+          {
+            "id": "60f6153f16bec828fcd44e54",
+            "displayName": "TagTest",
+            "slug": "tag-test"
+          }
+        ],
+        "author": {
+          "id": "60f6317272b7103e34b2262d",
+          "displayName": "werdna",
+          "slug": "werdna"
+        }
+      },
+      {
+        "id": "60f7c25449f4672ae0605899",
+        "slug": "post-aleatorio-dois",
+        "title": "Post aleatorio dois",
+        "excerpt": "Este post é só mais um post aleatório blog ter conteúdo....",
+        "content": "<h2>Um title bem parecido com o outro do outro post</h2><h3>este é um heading, sim o titulo ficou bem repetitivo, mas não tem problema</h3><p>eu sei que o certo é Título</p><p>acho que vc nem notou a diferença</p><p>&nbsp;</p><p>um belo parágrafo &nbsp;até …. só não tenho ideia para escrever….</p><p><code>&lt;div&gt;&lt;h1&gt;teste&lt;/h1&gt;&lt;/div&gt;</code></p><p>&nbsp;</p><ol><li>um item</li><li>outro item</li><li>mais um item</li><li>esta é uma lista muito boa até</li></ol><p><strong>negrito</strong></p><p><i><strong>italo</strong></i></p><p>&nbsp;</p><blockquote><p>A laranja se chama se chama laranja por causa de sua cor, ou a cor se chama laranja por causa da fruta?&nbsp;</p></blockquote><p>&nbsp;</p><p>na verdade não o nome laranja não é por causa da cor, só procurar no google, to com preguiça de colocar aqui 😂</p><p>pra falar a verdade, da vontade de escrever coisas bem mais aleatórias que isso, só para encher o conteúdo do blog, mas como este projeto é para meu portfólio… então não é uma boa ideia kkkk&nbsp;</p><p>depois eu irei mudar todo o conteúdo do blog e postar coisas de verdade mesmo, sobre programação e as coisas que aprendi</p>",
+        "allowComments": true,
+        "cover": [
+          {
+            "id": "60f76a7358eece29ccd00cfe",
+            "alternativeText": "random picture",
+            "url": "https://res.cloudinary.com/peetaxd/image/upload/v1626827378/bot_b324051b0c.png"
+          }
+        ],
+        "categories": [
+          {
+            "id": "60f6151b16bec828fcd44e53",
+            "displayName": "CategoriaTeste",
+            "slug": "categoria-teste"
+          }
+        ],
+        "tags": [
+          {
+            "id": "60f6153f16bec828fcd44e54",
+            "displayName": "TagTest",
+            "slug": "tag-test"
+          }
+        ],
+        "author": {
+          "id": "60f6317272b7103e34b2262d",
+          "displayName": "werdna",
+          "slug": "werdna"
+        }
+      }
+    ]
+  }
+}
