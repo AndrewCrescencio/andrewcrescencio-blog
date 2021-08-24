@@ -11,7 +11,8 @@
     "build-storybook": "build-storybook",
     "test": "jest",
     "deploy-static": "npm run build && npm run export",
-    "lint": "eslint src --max-warnings=0"
+    "lint": "eslint src --max-warnings=0",
+    "chromatic": "chromatic --exit-zero-on-changes"
   },
   "dependencies": {
     "@styled-icons/material-outlined": "^10.28.0",
@@ -39,6 +40,7 @@
     "@typescript-eslint/parser": "^4.18.0",
     "babel-loader": "^8.2.2",
     "babel-plugin-styled-components": "^1.12.0",
+    "chromatic": "^5.9.2",
     "eslint": "^7.22.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-prettier": "^3.3.1",
