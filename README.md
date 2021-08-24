@@ -29,12 +29,4 @@ O backend foi criado por meio do CMS Strapi, então todo o conteúdo pode ser fa
 Você pode ter acesso ao Storybook desde projeto usando o comando `npm run storybook` caso baixe o projeto, mas [aqui](https://60ffff3bdfc75f003922ba1a-wchqwilzsk.chromatic.com/?path=/story/articleheader--template) está o deploy feito no [Chomatic](https://www.chromatic.com)
 
 
-
-
-
-&nbsp;
-&nbsp;
-## Obs:
-só preciso melhorar o mock dos templates do storybook, para assim ficar mais facil "testar" os componentes, principalmente o do componente LogoLink, ele não esta conseguindo carregar a imagem por causa da url que passei está dentro da pasta assets, acho que por causa que fiz o deploy não é possivel acessar está pasta da maneira que escrevi a url, vou fazer o uploud das imagens usadas em algum lugar e depois só passar o link (ou arrumar a url, ainda preciso testar, estou escrevendo isso 5 minutos após ter feito o deploy)
-
 [tech_tools_anchor]: #--
