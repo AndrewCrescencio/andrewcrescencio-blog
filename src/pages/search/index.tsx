@@ -27,39 +27,40 @@ export default function SearchPage({
   );
 }
 
-export const getServerSideProps: GetServerSideProps<StrapiPostAndSettings> =
-  async (ctx) => {
-    let data = null;
-    const query = ctx.query.q || '';
+export const getServerSideProps: GetServerSideProps<
+  StrapiPostAndSettings
+> = async (ctx) => {
+  let data = null;
+  const query = ctx.query.q || '';
 
-    if (!query) {
-      return {
-        notFound: true,
-      };
-    }
-
-    const variables = { postSearch: query as string };
-
-    try {
-      data = await loadPosts(variables);
-    } catch (e) {
-      data = null;
-    }
-
-    if (!data || !data.posts) {
-      return {
-        notFound: true,
-      };
-    }
-
+  if (!query) {
     return {
-      props: {
-        posts: data.posts,
-        setting: data.setting,
-        variables: {
-          ...defaultLoadPostsVariables,
-          ...variables,
-        },
-      },
+      notFound: true,
     };
+  }
+
+  const variables = { postSearch: query as string };
+
+  try {
+    data = await loadPosts(variables);
+  } catch (e) {
+    data = null;
+  }
+
+  if (!data || !data.posts) {
+    return {
+      notFound: true,
+    };
+  }
+
+  return {
+    props: {
+      posts: data.posts,
+      setting: data.setting,
+      variables: {
+        ...defaultLoadPostsVariables,
+        ...variables,
+      },
+    },
   };
+};
