@@ -15,6 +15,11 @@ export const { styled, getCssText, createTheme, globalCss } = createStitches({
       text: '#181818',
       white: '#fff',
       background: '#fff',
+      primary: '#000000',
+      darkText: '#393E46',
+      secondary: '#00ADB5',
+      mediumGray: '#DDDDDD',
+      darkerGray: '#AAAAAA',
     },
     space: {
       1: '8rem',
@@ -40,6 +45,12 @@ export const darkTheme = createTheme({
 
 const GlobalStyles = globalCss({
   ...reset,
+  html: {
+    boxSizing: 'border-box',
+    '& *': {
+      boxSizing: 'border-box !important',
+    },
+  },
   body: {
     background: '$background',
     color: '$text',
