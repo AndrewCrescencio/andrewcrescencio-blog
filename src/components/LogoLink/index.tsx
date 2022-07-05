@@ -1,0 +1,40 @@
+import { Container } from './styles';
+import Link from 'next/link';
+import Image from 'next/image';
+
+export type LogoLinkProps = {
+  text: string;
+  srcImg?: string;
+  link: string;
+  newTab?: boolean;
+};
+
+export const LogoLink = ({
+  text,
+  srcImg = '',
+  link,
+  newTab = false,
+}: LogoLinkProps) => {
+  const nextLink = link.match(/^\//) ? true : false;
+  const target = newTab ? '_blank' : '_self';
+
+  if (nextLink) {
+    return (
+      <Link href={link} passHref>
+        <Container target={target}>
+          {!!srcImg && (
+            <Image src={srcImg} alt={text} width={240} height={240} />
+          )}
+          {!srcImg && text}
+        </Container>
+      </Link>
+    );
+  }
+
+  return (
+    <Container href={link} target={target}>
+      {!!srcImg && <Image src={srcImg} alt={text} width={240} height={240} />}
+      {!srcImg && text}
+    </Container>
+  );
+};
