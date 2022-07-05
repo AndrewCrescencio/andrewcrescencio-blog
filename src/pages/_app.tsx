@@ -1,9 +1,9 @@
-import type { ReactElement, ReactNode } from "react";
-import type { NextPage } from "next";
-import type { AppProps } from "next/app";
+import type { ReactElement, ReactNode } from 'react';
+import type { NextPage } from 'next';
+import type { AppProps } from 'next/app';
 
-import { ThemeProvider } from "next-themes";
-import { darkTheme } from "stitches.config";
+import { ThemeProvider } from 'next-themes';
+import { darkTheme } from 'stitches.config';
 
 type NextPageWithLayout = NextPage & {
   getLayout?: (page: ReactElement) => ReactNode;
@@ -20,12 +20,12 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
       attribute="class"
       defaultTheme="system"
       value={{
-        light: "light",
+        light: 'light',
         dark: darkTheme.className,
       }}
     >
       <Component {...pageProps} />
-    </ThemeProvider>
+    </ThemeProvider>,
   );
 }
 
