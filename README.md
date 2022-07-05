@@ -1,10 +1,7 @@
-# Nextjs-Strapi-Blog
+# [Nextjs-Strapi-Blog](https://andrewcrescencio-blog.vercel.app) 
 
-![preview](preview.png)
+### :hammer_and_wrench: Technologies used:
 
-[Demo](https://andrew-blog-evgx4fxnz-andrewcrescencio.vercel.app) 
-
-# :hammer_and_wrench: Tecnologias usadas:
 
 [<img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" title="Next.js" height="25" />][tech_tools_anchor]
 &nbsp;
@@ -20,13 +17,44 @@
 &nbsp;
 
 
-Esta é uma aplicação de um blog.
 
-O deploy do frontend foi feito na Vercel
+## Getting Started
 
-O backend foi criado por meio do CMS Strapi, então todo o conteúdo pode ser facilmente alterado, e seu deploy foi feito na Heroku.
 
-Você pode ter acesso ao Storybook desde projeto usando o comando `npm run storybook` caso baixe o projeto, mas [aqui](https://612497ba27789e003a207ef9-jxeuamaicm.chromatic.com) está o deploy feito no [Chomatic](https://www.chromatic.com)
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/AndrewCrescencio/andrewcrescencio-blog.git
+   ```
+
+2. Navigate to the folder
+   ```sh
+   cd andrewcrescencio-blog
+    ```
+     
+3. Install dependencies
+   ```sh
+   yarn install
+   ```
+
+
+
+
++ ### Development server
+    ```
+    yarn dev
+    ```
+    
++ ### Storybook
+    ```
+    yarn storybook
+    ```
+
+#### [Storybook deploy](https://612497ba27789e003a207ef9-jxeuamaicm.chromatic.com)
+### [Demo deploy](https://andrewcrescencio-blog.vercel.app) 
+
+
 
 
 [tech_tools_anchor]: #--
