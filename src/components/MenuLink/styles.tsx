@@ -2,14 +2,33 @@ import { styled } from '../../../stitches.config';
 
 export const Container = styled('a', {
   display: 'block',
-  color: '$text',
+  color: '$white',
   textDecoration: 'none',
   marginBottom: '$2',
   fontSize: '1.8rem',
-  borderRight: '0.5rem solid $text',
-  transition: 'all 300ms ease-in-out',
+  position: 'relative',
+  '&:after': {
+    position: 'absolute',
+    top: 0,
+    right: 0,
+    width: '0',
+    height: '0',
+    content: '',
+    display: 'block',
+    opacity: 0,
+  },
   '&:hover': {
-    borderRight: '0.5rem solid #00ADB5',
-    color: '#00ADB5',
+    '&:after': {
+      opacity: 1,
+      position: 'absolute',
+      top: 0,
+      right: 0,
+      width: '2px',
+      height: '100%',
+      content: '',
+      display: 'block',
+      backgroundColor: '$secondary',
+      transition: 'opacity 500ms ease-in-out',
+    },
   },
 });
