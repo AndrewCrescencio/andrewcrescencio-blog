@@ -1,4 +1,4 @@
-import { Container } from './styles';
+import { Container, AltText } from './styles';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -33,8 +33,8 @@ export const LogoLink = ({
 
   return (
     <Container href={link} target={target}>
-      {!!srcImg && <Image src={srcImg} alt={text} width={240} height={240} />}
-      {!srcImg && text}
+      {!!srcImg && <Image src={srcImg} alt={text} width={150} height={150} />}
+      {!srcImg && <AltText>{text}</AltText>}
     </Container>
   );
 };

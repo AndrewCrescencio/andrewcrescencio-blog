@@ -6,11 +6,11 @@ export default {
   title: 'LogoLink',
   component: LogoLink,
   args: {
-    text: 'LogoLink',
+    text: 'Andrew Crescencio',
     srcImg:
       'https://res.cloudinary.com/peetaxd/image/upload/v1651461914/medium_perfil_ca2a7ba48c.jpg',
-    link: 'http://localhost',
-    newTab: false,
+    link: 'https://www.linkedin.com/in/andrewcrescencio/',
+    newTab: true,
   },
 } as Meta;
 
