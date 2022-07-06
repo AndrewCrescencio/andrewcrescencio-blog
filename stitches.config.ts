@@ -22,7 +22,7 @@ export const { styled, getCssText, createTheme, globalCss } = createStitches({
       darkerGray: '#AAAAAA',
     },
     space: {
-      1: '8rem',
+      1: '1rem',
       2: '1.6rem',
       3: '2.4rem',
       4: '3.2rem',
