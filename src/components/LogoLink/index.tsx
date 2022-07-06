@@ -21,7 +21,7 @@ export const LogoLink = ({
   if (nextLink) {
     return (
       <Link href={link} passHref>
-        <Container target={target}>
+        <Container target={target} className="logo-link">
           {!!srcImg && (
             <Image src={srcImg} alt={text} width={240} height={240} />
           )}
@@ -32,7 +32,7 @@ export const LogoLink = ({
   }
 
   return (
-    <Container href={link} target={target}>
+    <Container href={link} target={target} className="logo-link">
       {!!srcImg && <Image src={srcImg} alt={text} width={150} height={150} />}
       {!srcImg && <AltText>{text}</AltText>}
     </Container>
