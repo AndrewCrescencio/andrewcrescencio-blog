@@ -1,7 +1,11 @@
 {
   "name": "andrew-crescencio-blog-v2",
   "description": "Andrew Crescencio's blog",
-  "author": "Andrew Crescencio <andrew_workstation@hotmail.com> (https://www.linkedin.com/in/andrewcrescencio/)",
+  "author": {
+    "name": "Andrew Crescencio",
+    "email": "andrew_workstation@hotmail.com",
+    "url": "https://www.linkedin.com/in/andrewcrescencio/"
+  },
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,7 +16,8 @@
     "generate": "yarn plop --plopfile ./generators/plopfile.js",
     "build-storybook": "build-storybook",
     "prepare": "husky install",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "chromatic": "npx chromatic --project-token=8fb0843be475"
   },
   "dependencies": {
     "@stitches/react": "^1.2.8",
@@ -36,6 +41,7 @@
     "@types/react": "18.0.14",
     "@types/react-dom": "18.0.5",
     "babel-loader": "^8.2.5",
+    "chromatic": "^6.7.0",
     "eslint": "8.18.0",
     "eslint-config-next": "12.1.6",
     "eslint-config-prettier": "^8.5.0",
@@ -43,5 +49,7 @@
     "plop": "^3.1.1",
     "storybook-addon-next": "^1.6.7",
     "typescript": "4.7.4"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "andrew-crescencio-blog-v2@0.1.0"
 }
