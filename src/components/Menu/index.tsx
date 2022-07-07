@@ -42,7 +42,7 @@ export const Menu = ({ links = [], blogName, logo }: MenuProps) => {
           {!menuVisible && <span aria-label="Open menu">☰</span>}
         </OpenClose>
         <Nav>
-          <LogoLink link="/" text={blogName} srcImg={logo} />
+          <LogoLink link="/" srcImg={logo} />
 
           {links.map((link) => (
             <MenuLink key={link.id} link={link.link} newTab={link.newTab}>
