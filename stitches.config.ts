@@ -81,12 +81,12 @@ export const { styled, getCssText, createTheme, globalCss } = createStitches({
       49: '12.25rem',
       50: '12.5rem',
     },
-    media: {
-      bp1: '(min-width: 414px)',
-      bp2: '(min-width: 768px)',
-      bp3: '(min-width: 1024px)',
-      bp4: '(min-width: 1440px)',
-    },
+  },
+  media: {
+    bp1: '(min-width: 414px)',
+    bp2: '(min-width: 768px)',
+    bp3: '(min-width: 1024px)',
+    bp4: '(min-width: 1440px)',
   },
 });
 
