@@ -3,12 +3,12 @@ import Image from 'next/image';
 
 import { Card, CardImage, CardBody, CardTitle, CardText } from './styles';
 
-import { StrapiImage } from '@shared-types/strapi-image';
+import { TStrapiImage } from '@shared-types/strapi-image';
 
 export type PostCardProps = {
   id: string;
   title: string;
-  cover: StrapiImage;
+  cover: TStrapiImage;
   excerpt: string;
   slug: string;
 };
