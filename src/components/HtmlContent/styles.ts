@@ -1,8 +1,10 @@
 import { styled } from '../../../stitches.config';
 
 export const Container = styled('div', {
-  fontSize: '$1',
+  fontSize: '$4',
   lineHeight: '1.5',
+  maxWidth: '800px',
+  margin: '0 auto',
   '& p': {
     marginBottom: '$2',
   },
