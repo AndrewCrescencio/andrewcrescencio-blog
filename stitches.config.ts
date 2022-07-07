@@ -38,6 +38,12 @@ export const { styled, getCssText, createTheme, globalCss } = createStitches({
       7: '5.6rem',
       8: '6.4rem',
     },
+    media: {
+      bp1: '(min-width: 414px)',
+      bp2: '(min-width: 768px)',
+      bp3: '(min-width: 1024px)',
+      bp4: '(min-width: 1440px)',
+    },
   },
 });
 
