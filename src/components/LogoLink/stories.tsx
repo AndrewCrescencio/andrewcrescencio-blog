@@ -14,22 +14,10 @@ export default {
   },
 } as Meta;
 
-export const ImageOnly: Story<LogoLinkProps> = (args) => {
+export const Basic: Story<LogoLinkProps> = (args) => {
   return (
     <div>
       <LogoLink {...args} />
     </div>
   );
-};
-
-export const TextOnly: Story<LogoLinkProps> = (args) => {
-  return (
-    <div>
-      <LogoLink {...args} />
-    </div>
-  );
-};
-
-TextOnly.args = {
-  srcImg: '',
 };

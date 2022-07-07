@@ -3,14 +3,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export type LogoLinkProps = {
-  text: string;
   srcImg?: string;
   link: string;
   newTab?: boolean;
 };
 
 export const LogoLink = ({
-  text,
   srcImg = '',
   link,
   newTab = false,
@@ -22,10 +20,7 @@ export const LogoLink = ({
     return (
       <Link href={link} passHref>
         <Container target={target} className="logo-link">
-          {!!srcImg && (
-            <Image src={srcImg} alt={text} width={240} height={240} />
-          )}
-          {!srcImg && text}
+          {!!srcImg && <Image src={srcImg} alt="" width={150} height={150} />}
         </Container>
       </Link>
     );
@@ -33,8 +28,7 @@ export const LogoLink = ({
 
   return (
     <Container href={link} target={target} className="logo-link">
-      {!!srcImg && <Image src={srcImg} alt={text} width={150} height={150} />}
-      {!srcImg && <AltText>{text}</AltText>}
+      {!!srcImg && <Image src={srcImg} alt="" width={150} height={150} />}
     </Container>
   );
 };

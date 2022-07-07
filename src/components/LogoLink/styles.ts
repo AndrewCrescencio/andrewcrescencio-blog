@@ -1,7 +1,8 @@
 import { styled } from '../../../stitches.config';
 
 export const Container = styled('a', {
-  display: 'block',
+  display: 'grid',
+  placeContent: 'center',
   textDecoration: 'none',
   color: 'inherit',
   width: '150px',
