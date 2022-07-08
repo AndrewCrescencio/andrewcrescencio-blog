@@ -3,7 +3,7 @@ import { LogoLink } from '../LogoLink';
 import { MenuLink } from '../MenuLink';
 
 import { Wrapper, Nav, OpenClose } from './styles';
-
+import { FaBars, FaTimes } from 'react-icons/fa';
 export type MenuPropsLinks = {
   id: string;
   link: string;
@@ -34,15 +34,11 @@ export const Menu = ({ links = [], blogName, logo }: MenuProps) => {
           onClick={handleOpenCloseMenu}
           className={menuVisible ? 'open' : ''}
         >
-          {menuVisible && (
-            <span aria-label="Close menu" style={{ fontWeight: 'bold' }}>
-              &#x2715;
-            </span>
-          )}
-          {!menuVisible && <span aria-label="Open menu">☰</span>}
+          {menuVisible && <FaTimes style={{ transform: 'scale(1.2)' }} />}
+          {!menuVisible && <FaBars strokeWidth={8} />}
         </OpenClose>
         <Nav>
-          <LogoLink link="/" srcImg={logo} />
+          {/* <LogoLink link="/" srcImg={logo} /> */}
 
           {links.map((link) => (
             <MenuLink key={link.id} link={link.link} newTab={link.newTab}>
