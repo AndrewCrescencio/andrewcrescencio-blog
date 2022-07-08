@@ -7,23 +7,23 @@
       "logo": {
         "id": "603e59da85540677309fd518",
         "alternativeText": "",
-        "url": "https://res.cloudinary.com/peetaxd/image/upload/v1628784345/eu_zdocgl.jpg"
+        "url": "https://res.cloudinary.com/peetaxd/image/upload/v1651461914/medium_perfil_ca2a7ba48c.jpg"
       },
       "menuLink": [
         {
           "id": "603e6c0fea5cb78a6ea187f3",
-          "link": "#target",
-          "text": "O texto",
+          "link": "https://github.com/AndrewCrescencio",
+          "text": "GitHub",
           "newTab": false
         },
         {
           "id": "603e9298ea5cb78a6ea187f6",
-          "link": "#link2",
-          "text": "o LINK 2",
+          "link": "https://www.linkedin.com/in/andrewcrescencio/",
+          "text": "LinkedIn",
           "newTab": true
         }
       ],
-      "text": "<p>O texto da footer</p>"
+      "text": "<p>Feito por Andrew Crescencio</p>"
     },
     "posts": [
       {
@@ -79,7 +79,7 @@
         "slug": "sea-array-destructuring-dicat-fabulas-consetetur",
         "title": "Sea Array Destructuring dicat fabulas consetetur ",
         "excerpt": "Quod oblique mei ne, cetero delicatissimi sea cu, cu est harum dicit verterem. Tota forensibus ut usu, luptatum dignissim persecuti vel ex. Mea nostrud instructior cu, et referrentur theophrastus eum. Pro in iuvaret senserit.",
-        "content": "<h2>Um title</h2><h3>este é um heading</h3><p>&nbsp;</p><p>um belo parágrafo &nbsp;até …. só não tenho ideia para escrever….</p><p><code>&lt;div&gt;&lt;h1&gt;teste&lt;/h1&gt;&lt;/div&gt;</code></p><p>&nbsp;</p><ol><li>um item</li><li>outro item</li><li>mais um item</li><li>esta é uma lista muito boa até</li></ol><p><strong>negrito</strong></p><p><i><strong>italo</strong></i></p><p>&nbsp;</p><blockquote><p>A laranja se chama se chama laranja por causa de sua cor, ou a cor se chama laranja por causa da fruta?&nbsp;</p></blockquote><p>&nbsp;</p><p>na verdade o nome laranja não é por causa da cor, só procurar no google, to com preguiça de colocar aqui 😂</p><p>pra falar a verdade, da vontade de escrever coisas bem mais aleatórias que isso, só para encher o conteúdo do blog, mas como este projeto é para meu portfólio… então não é uma boa ideia kkkk&nbsp;</p><p>depois eu irei mudar todo o conteúdo do blog e postar coisas de verdade mesmo, sobre programação e as coisas que aprendi</p>",
+        "content": "<h2>One title</h2><h3>This is a heading</h3><p>&nbsp;</p><p>Lorem ipsum dolor sit amet &nbsp;até …. consectetur adipiscing elit...</p><p><code>&lt;div&gt;&lt;h1&gt;teste&lt;/h1&gt;&lt;/div&gt;</code></p><p>&nbsp;</p><ol><li>one item</li><li>two item</li><li>more one item</li><li>this is a good list</li></ol><p><strong>strong</strong></p><p><i><strong>Italic</strong></i></p><p>&nbsp;</p><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut viverra mauris, ut suscipit massa fera.</p>",
         "allowComments": true,
         "cover": {
           "id": "603e5a2785540677309fd51b",
@@ -109,9 +109,9 @@
       {
         "id": "603e5f1785540677309fd51d",
         "slug": "quod-oblique-mei-ne-cetero-delicatissimi-sea",
-        "title": "Quod oblique mei ne, cetero delicatissimi sea",
-        "excerpt": "Et sed legere rationibus, vitae evertitur ad eam. Eu amet vero officiis vis. Ad nullam pericula neglegentur sit, vix ei regione legendos argumentum. Mei an quas convenire, nobis dicunt mei ut. ",
-        "content": "<h2>Um title</h2><h3>este é um heading</h3><p>&nbsp;</p><p>um belo parágrafo &nbsp;até …. só não tenho ideia para escrever….</p><p><code>&lt;div&gt;&lt;h1&gt;teste&lt;/h1&gt;&lt;/div&gt;</code></p><p>&nbsp;</p><ol><li>um item</li><li>outro item</li><li>mais um item</li><li>esta é uma lista muito boa até</li></ol><p><strong>negrito</strong></p><p><i><strong>italo</strong></i></p><p>&nbsp;</p><blockquote><p>A laranja se chama se chama laranja por causa de sua cor, ou a cor se chama laranja por causa da fruta?&nbsp;</p></blockquote><p>&nbsp;</p><p>na verdade o nome laranja não é por causa da cor, só procurar no google, to com preguiça de colocar aqui 😂</p><p>pra falar a verdade, da vontade de escrever coisas bem mais aleatórias que isso, só para encher o conteúdo do blog, mas como este projeto é para meu portfólio… então não é uma boa ideia kkkk&nbsp;</p><p>depois eu irei mudar todo o conteúdo do blog e postar coisas de verdade mesmo, sobre programação e as coisas que aprendi</p>",
+        "title": "This is the post Title.",
+        "excerpt": "This is the post excerpt, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut viverra mauris, ut suscipit massa fera.",
+        "content": "<h2>One title</h2><h3>This is a heading</h3><p>&nbsp;</p><p>Lorem ipsum dolor sit amet &nbsp;até …. consectetur adipiscing elit...</p><p><code>&lt;div&gt;&lt;h1&gt;teste&lt;/h1&gt;&lt;/div&gt;</code></p><p>&nbsp;</p><ol><li>one item</li><li>two item</li><li>more one item</li><li>this is a good list</li></ol><p><strong>strong</strong></p><p><i><strong>Italic</strong></i></p><p>&nbsp;</p><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut viverra mauris, ut suscipit massa fera.</p>",
         "allowComments": true,
         "cover": {
           "id": "603e5a2785540677309fd51b",
