@@ -3,7 +3,6 @@ import { styled } from '../../../stitches.config';
 export const Container = styled('a', {
   width: '36px',
   height: '36px',
-
   display: 'grid',
   placeContent: 'center',
   border: 'none',
@@ -12,7 +11,6 @@ export const Container = styled('a', {
   borderRadius: '8px',
   cursor: 'pointer',
   textDecoration: 'none',
-
   position: 'fixed',
   bottom: '25px',
   right: '$2',
