@@ -3,11 +3,15 @@ import { styled } from '../../../stitches.config';
 export const Container = styled('div', {
   textAlign: 'center',
   borderTop: '1px solid $mediumGray',
-  padding: '$2 0',
-
+  padding: '$6 0',
+  fontWeight: 600,
+  '@bp2': {
+    padding: '$8 0',
+  },
   '& a': {
-    color: 'inherit',
+    color: '$customBlue600 !important',
     textDecoration: 'none',
-    fontSize: '$1',
+    fontSize: '$4',
+    cursor: 'pointer',
   },
 });
