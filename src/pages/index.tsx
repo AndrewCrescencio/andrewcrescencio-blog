@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { ReactElement } from 'react';
 import { Layout } from '@components/Layout';
+import Link from 'next/link';
 // import { useTheme } from "next-themes";
 
 const Home = () => {
@@ -38,8 +39,13 @@ const Home = () => {
         <p style={{ fontSize: '14px', marginBottom: '8px' }}>
           O que estou fazendo no momento?
         </p>
-        <p style={{ fontSize: '14px', marginBottom: '8px' }}>
-          criando componentes
+        <p style={{ fontSize: '14px', marginBottom: '8px' }}>criando páginas</p>
+        <p>
+          caso queira ver a página que sera a inicial quando o blog estiver
+          pronto, pode entrar
+          <Link href="/initial" target="_blank">
+            aqui
+          </Link>
         </p>
       </main>
     </>
