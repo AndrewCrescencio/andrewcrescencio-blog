@@ -25,7 +25,7 @@ export const { styled, getCssText, createTheme, globalCss } = createStitches({
       background: '#fff',
       primary: '#000000',
       darkText: '#393E46',
-      secondary: '#00ADB5',
+      secondary: '$customOrange500',
       mediumGray: '#DDDDDD',
       darkerGray: '#AAAAAA',
 
