@@ -1,16 +1,15 @@
 import { styled } from '../../../stitches.config';
 
 export const Container = styled('a', {
-  display: 'block',
+  display: 'inline-block',
+  width: 'max-content',
   color: '$white',
   textDecoration: 'none',
-  marginBottom: '$2',
+  marginBottom: '$4',
   fontSize: '1.8rem',
   position: 'relative',
   '&:after': {
     position: 'absolute',
-    top: 0,
-    right: 0,
     width: '0',
     height: '0',
     content: '',
@@ -21,10 +20,10 @@ export const Container = styled('a', {
     '&:after': {
       opacity: 1,
       position: 'absolute',
-      top: 0,
       right: 0,
-      width: '2px',
-      height: '100%',
+      top: '100%',
+      width: '100%',
+      height: '2px',
       content: '',
       display: 'block',
       backgroundColor: '$secondary',
