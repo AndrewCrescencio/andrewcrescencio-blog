@@ -1,26 +1,22 @@
 import { styled } from '../../../stitches.config';
 
-export const Container = styled('div', {});
-
-export const ButtonContainer = styled('div', {});
+export const ButtonContainer = styled('div', {
+  textAlign: 'center',
+});
 
 export const Button = styled('button', {
-  margin: '$3 0',
+  margin: '$3 auto',
   '@bp2': {
-    margin: '$8 0',
+    margin: '$8 auto',
   },
-  cursor: 'pointer',
   padding: '$2 $4',
-  background: '$customBlue500',
-  border: 'transparent',
-  borderRadius: '4px',
   color: '$white',
-  fontFamily: '$system',
   fontSize: '$4',
   fontWeight: 600,
-  transition: 'all .2s ease-in-out',
+  background: '$secondary',
+  border: 'transparent',
+  borderRadius: '4px',
   boxShadow: '$1',
-  '&:hover': {
-    transform: 'scale(1.05)',
-  },
+  transition: 'all .2s ease-in-out',
+  cursor: 'pointer',
 });

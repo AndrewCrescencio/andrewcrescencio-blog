@@ -1,4 +1,4 @@
-import { Button, ButtonContainer, Container } from './styles';
+import { Button, ButtonContainer } from './styles';
 
 import { TPostStrapi } from '../../shared-types/post-strapi';
 import { TSettingsStrapi } from '../../shared-types/settings-strapi';
