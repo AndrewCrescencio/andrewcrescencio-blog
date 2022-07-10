@@ -1,6 +1,7 @@
 import { styled } from '../../../stitches.config';
 
 export const Wrapper = styled('div', {});
+Wrapper.displayName = 'BaseTemplate-Wrapper';
 
 export const HeaderContainer = styled('div', {
   marginBottom: '$16',
