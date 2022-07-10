@@ -13,7 +13,7 @@ export const Container = styled('a', {
     height: '150px',
     borderRadius: '50%',
     border: '4px solid !important',
-    borderColor: '$customBlue500 !important',
+    borderColor: '$secondary !important',
   },
 });
 
