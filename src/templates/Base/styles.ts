@@ -15,9 +15,7 @@ export const SearchContainer = styled('div', {
 
 export const SearchInput = styled('input', {});
 
-export const ContentContainer = styled('div', {
-  textAlign: 'center',
-});
+export const ContentContainer = styled('div', {});
 
 export const FootetContainer = styled('div', {
   marginTop: '$8',
