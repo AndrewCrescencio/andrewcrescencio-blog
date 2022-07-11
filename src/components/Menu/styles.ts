@@ -38,12 +38,14 @@ export const Nav = styled('nav', {
 
 export const OpenClose = styled('button', {
   position: 'fixed',
-  top: '$6',
+  top: '$2',
   left: '$2',
   '@bp1': {
+    top: '$4',
     left: '$4',
   },
   '@bp2': {
+    top: '$6',
     left: '$6',
   },
   display: 'grid',
