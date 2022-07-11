@@ -2,15 +2,12 @@ import { styled } from '../../../stitches.config';
 
 export const Container = styled('a', {
   display: 'grid',
+  maxWidth: '150px !important',
   placeContent: 'center',
-  textDecoration: 'none',
   color: 'inherit',
-  width: '150px',
-  height: '150px',
+  textDecoration: 'none',
 
   '& img': {
-    width: '150px',
-    height: '150px',
     borderRadius: '50%',
     border: '4px solid !important',
     borderColor: '$secondary !important',
