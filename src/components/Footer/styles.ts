@@ -9,7 +9,7 @@ export const Container = styled('div', {
     padding: '$8 0',
   },
   '& a': {
-    color: '$customBlue600 !important',
+    color: '$secondary !important',
     textDecoration: 'none',
     fontSize: '$4',
     cursor: 'pointer',
