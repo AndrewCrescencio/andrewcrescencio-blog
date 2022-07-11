@@ -63,7 +63,7 @@ export const { styled, getCssText, createTheme, globalCss } = createStitches({
       black: '#000',
       text: '#181818',
       mediumGray: '#DDDDDD',
-      darkerGray: '#AAAAAA',
+      darkGrey: '#121212',
 
       primary: '$purple500',
       primaryVariant: '$purple700',
@@ -179,8 +179,8 @@ export const darkTheme = createTheme({
     secondary: '$aqua200',
     secondaryVariant: '$aqua200',
 
-    background: '$black',
-    surface: '$black',
+    background: '$darkGray',
+    surface: '$darkGray',
     error: '#CF6679',
 
     onPrimary: '$black',
