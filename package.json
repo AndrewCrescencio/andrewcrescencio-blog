@@ -28,6 +28,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0",
+    "react-switch": "^7.0.0",
     "stitches-reset": "^1.0.0"
   },
   "devDependencies": {
