@@ -14,7 +14,20 @@ export const SearchContainer = styled('div', {
   gap: '$2',
 });
 
-export const SearchInput = styled('input', {});
+export const SearchInput = styled('input', {
+  all: 'unset',
+  width: 200,
+  borderRadius: 4,
+  padding: '0 10px',
+  height: 35,
+  fontSize: 15,
+  lineHeight: 1,
+  border: 'none',
+  color: '$white',
+  backgroundColor: '$black',
+  boxShadow: '0 0 0 1px $secondary',
+  '&:focus': { boxShadow: `$2` },
+});
 
 export const ContentContainer = styled('div', {});
 
