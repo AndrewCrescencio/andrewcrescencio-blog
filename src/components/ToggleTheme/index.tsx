@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { useState } from 'react';
 import Switch from 'react-switch';
 import { useTheme } from 'next-themes';
