@@ -4,11 +4,10 @@ import { Footer } from '../../components/Footer';
 import { GoTop } from '../../components/GoTop';
 import { Header } from '../../components/Header';
 import { Menu } from '../../components/Menu';
-// import { ToggleTheme } from '../../components/ToggleTheme';
 import { TSettingsStrapi } from '@shared-types/settings-strapi';
-// import { Cancel } from '@styled-icons/material-outlined/Cancel';
-// import { CheckCircleOutline } from '@styled-icons/material-outlined/CheckCircleOutline';
 import { FcCheckmark } from 'react-icons/fc';
+
+import { ToggleTheme } from '../../components/ToggleTheme';
 
 import {
   Wrapper,
@@ -34,6 +33,7 @@ export const BaseTemplate = ({ settings, children }: BaseTemplateProps) => {
   {
     /*se a pesquisa já estiver pronta(já foi carregada...) seta o input para disabled*/
   }
+
   useEffect(() => {
     if (isReady) {
       setSearchDisabled(false);
@@ -76,6 +76,7 @@ export const BaseTemplate = ({ settings, children }: BaseTemplateProps) => {
         logo={settings.logo.url}
       />
       <HeaderContainer>
+        <ToggleTheme />
         <Header
           blogName={settings.blogName}
           blogDescription={settings.blogDescription}
