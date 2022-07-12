@@ -8,12 +8,7 @@ import { theme as themeStitches } from '../../../stitches.config';
 export const ToggleTheme = () => {
   const { theme, setTheme } = useTheme();
   const [checked, setChecked] = useState(false);
-  const [switchOnColor, setSwitchOnColor] = useState<string>('');
-
-  useEffect(() => {
-    const themeColor = themeStitches.colors.purple200.value;
-    setSwitchOnColor(themeColor);
-  }, []);
+  const themeColor = themeStitches.colors.purple200.value;
 
   const handleChange = () => {
     setChecked(!checked);
@@ -26,7 +21,7 @@ export const ToggleTheme = () => {
         checked={checked}
         className="react-switch"
         onColor="##888888"
-        onHandleColor={switchOnColor}
+        onHandleColor={themeColor}
         handleDiameter={30}
         uncheckedIcon={false}
         checkedIcon={false}
