@@ -158,7 +158,7 @@ export const { styled, getCssText, createTheme, globalCss, theme } =
       },
       shadows: {
         1: '0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)',
-        2: '0 0 0 2px #ff621a !important',
+        2: '0 0 0 2px #03DAC5 !important',
       },
     },
     media: {
