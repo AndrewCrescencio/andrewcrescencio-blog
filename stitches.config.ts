@@ -180,7 +180,17 @@ export const darkTheme = createTheme({
     secondary: '$aqua200',
     secondaryVariant: '$aqua200',
 
-    background: '$darkGray',
+    background: '$darkGray', //#121212
+    background01dp: '#1d1d1d',
+    background02dp: '#212121',
+    background03dp: '#242424',
+    background04dp: '#262626',
+    background06dp: '#2c2c2c',
+    background08dp: '#2d2d2d',
+    background12dp: '#323232',
+    background16dp: '#353535',
+    background24dp: '#373737',
+
     surface: '$darkGray',
     error: '#CF6679',
 
