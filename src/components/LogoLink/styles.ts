@@ -10,7 +10,7 @@ export const Container = styled('a', {
   '& img': {
     borderRadius: '50%',
     border: '4px solid !important',
-    borderColor: '$secondary !important',
+    borderColor: '$primary !important',
   },
 });
 
