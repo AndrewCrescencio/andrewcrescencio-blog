@@ -19,7 +19,7 @@ export const ToggleTheme = () => {
         onChange={handleChange}
         checked={checked}
         className="react-switch"
-        onColor="##888888"
+        onColor="#888888"
         onHandleColor={themeColor}
         handleDiameter={30}
         uncheckedIcon={false}
