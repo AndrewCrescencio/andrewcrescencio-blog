@@ -17,6 +17,7 @@ export const CardImage = styled('div', {
 
 export const CardBody = styled('div', {
   padding: '$2 $4 $4',
+  color: '$darkGrey',
 });
 
 export const CardTitle = styled('h2', {
