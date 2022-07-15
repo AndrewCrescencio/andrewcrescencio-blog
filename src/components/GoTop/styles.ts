@@ -6,7 +6,7 @@ export const Container = styled('a', {
   display: 'grid',
   placeContent: 'center',
   border: 'none',
-  background: '$customOrange400',
+  background: '$primary',
   boxShadow: '$1',
   borderRadius: '8px',
   cursor: 'pointer',
