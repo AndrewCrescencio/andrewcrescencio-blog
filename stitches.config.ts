@@ -60,9 +60,11 @@ export const { styled, getCssText, createTheme, globalCss, theme } =
         50: '12.5rem',
       },
       colors: {
+        text: '#181818',
+
         white: '#fff',
         black: '#000',
-        text: '#181818',
+        lightGray: '#f5f5f5',
         mediumGray: '#DDDDDD',
         darkGrey: '#121212',
 
@@ -72,14 +74,12 @@ export const { styled, getCssText, createTheme, globalCss, theme } =
         secondary: '$aqua200',
         secondaryVariant: '$aqua900',
 
-        background: '$white',
-        surface: '$white',
+        background: '$lightGray',
         error: '#B00020',
 
         onPrimary: '$white',
         onSecondary: '$black',
         onBackground: '$black',
-        onSurface: '$black',
         onError: '$white',
 
         purple50: '#F2E7FE',
@@ -174,13 +174,19 @@ export const darkTheme = createTheme('dark-theme', {
   colors: {
     text: '#fff',
 
+    white: '#fff',
+    black: '#000',
+    lightGray: '#f5f5f5',
+    mediumGray: '#DDDDDD',
+    darkGrey: '#121212',
+
     primary: '$purple200',
     primaryVariant: '$purple700',
 
     secondary: '$aqua200',
     secondaryVariant: '$aqua200',
 
-    background: '#121212',
+    background: '$darkGrey',
     background01dp: '#1d1d1d',
     background02dp: '#212121',
     background03dp: '#242424',
@@ -191,13 +197,11 @@ export const darkTheme = createTheme('dark-theme', {
     background16dp: '#353535',
     background24dp: '#373737',
 
-    surface: '$darkGray',
     error: '#CF6679',
 
     onPrimary: '$black',
     onSecondary: '$black',
     onBackground: '$white',
-    onSurface: '$white',
     onError: '$black',
   },
 });
