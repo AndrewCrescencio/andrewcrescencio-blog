@@ -170,7 +170,7 @@ export const { styled, getCssText, createTheme, globalCss, theme } =
   });
 
 // define the dark theme using the de-constructed function
-export const darkTheme = createTheme({
+export const darkTheme = createTheme('dark-theme', {
   colors: {
     text: '#fff',
 
@@ -180,7 +180,7 @@ export const darkTheme = createTheme({
     secondary: '$aqua200',
     secondaryVariant: '$aqua200',
 
-    background: '$darkGray', //#121212
+    background: '#121212',
     background01dp: '#1d1d1d',
     background02dp: '#212121',
     background03dp: '#242424',
