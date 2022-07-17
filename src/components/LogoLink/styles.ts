@@ -2,6 +2,9 @@ import { styled } from '../../../stitches.config';
 
 export const Container = styled('a', {
   display: 'grid',
+  '&.hide': {
+    display: 'none !important',
+  },
   maxWidth: '150px !important',
   placeContent: 'center',
   color: 'inherit',
