@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Switch from 'react-switch';
 import { useTheme } from 'next-themes';
 import { Container } from './styles';
@@ -6,9 +6,11 @@ import { theme as themeStitches } from '../../../stitches.config';
 
 export const ToggleTheme = () => {
   const { theme, setTheme } = useTheme();
-  const [checked, setChecked] = useState(false);
+  const [checked, setChecked] = useState(true);
   const themeColor = themeStitches.colors.purple200.value;
-
+  useEffect(() => {
+    theme === 'light' ? setChecked(false) : setChecked(true);
+  }, [theme]);
   const handleChange = () => {
     setChecked(!checked);
     setTheme(theme === 'light' ? 'dark' : 'light');
