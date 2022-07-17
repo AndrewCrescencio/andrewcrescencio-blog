@@ -8,9 +8,10 @@ export const ToggleTheme = () => {
   const { theme, setTheme } = useTheme();
   const [checked, setChecked] = useState(true);
   const themeColor = themeStitches.colors.purple200.value;
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     theme === 'light' ? setChecked(false) : setChecked(true);
-  }, [theme]);
+  });
   const handleChange = () => {
     setChecked(!checked);
     setTheme(theme === 'light' ? 'dark' : 'light');
